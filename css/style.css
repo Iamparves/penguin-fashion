@@ -1,4 +1,157 @@
 *{
-    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
+
+/* Primary Button */
+.primary__btn,
+.primary__btn:hover{
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(#A4BC46, #85A019);
+    text-decoration: none;
+    padding: 16px 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.primary__btn i{
+    margin-right: 5px;
+}
+
+/* Header Section */
+.header{
+    background: #FFFBF0;
+}
+
+/* Navbar */
+.header__nav img{
+    height: 40px;
+}
+
+.header__nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.header__nav .navbar-toggler-icon {
+    background-image: url(../img/icon/navbar-toggle.png);
+    background-size: 120%;
+}
+
+.header__menu li:not(:last-child){
+    margin-right: 40px;
+}
+
+.header__menu li a{
+    font-size: 16px;
+    color: #3c3c3c;
+    font-weight: 500;
+}
+
+/* Hero Section  */
+.hero{
+    padding: 80px 0 100px;
+}
+
+.hero__title,
+.hero__title span{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.hero__title span{
+    color: #FABE4C;
+}
+
+.hero__description{
+    color: #3E3E3E;
+    max-width: 380px;
+}
+
+.hero__img{
+    max-width: 500px;
+}
+
+/* Section Title */
+.section__title{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    font-size: 48px;
+}
+
+/* Product Card */
+.product__card{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.product__card--img-box{
+    background: #F1F1F1;
+    border-radius: 20px;
+    padding: 15px;
+    height: 380px;
+}
+
+.product__card--img{
+    height: 100%;
+    object-fit: contain;
+}
+
+.product__card--title{
+    color: #363958;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.product__card--description{
+    color: #3E3E3E;
+}
+
+.product__card--price{
+    color: #FABE4C;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+/* Features Section */
+.features{
+    padding: 80px 0;
+}
+
+.features__card{
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .05);
+    padding: 20px 30px;
+    width: 90%;
+}
+
+.features__icon--box{
+    padding-right: 30px;
+}
+
+.features__icon{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+.features__title{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.features__description{
+    color: #3E3E3E;
+    margin-bottom: 0;
 }
